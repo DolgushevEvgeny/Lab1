@@ -1,6 +1,6 @@
 .topLine
 {
-    height: 40px;
+    height: 32px;
     width: 100%;
     background-color: #313131;
     font: bold 12px/30px "Arial","Helvetica",sans-serif;
@@ -36,4 +36,41 @@
 .clear
 {
     clear: both;
+}
+
+.menu
+{
+    width: 1200px;
+    height: 50px;
+    padding: 5px 0;
+    font: bold 12px/30px "Arial","Helvetica",sans-serif;
+}
+
+.menu-logo
+{
+    margin: 0 15px 0 0;
+    padding: 11px 10px 7px;
+}
+
+.menu-logo a
+{
+    color: #121212;
+    text-decoration: none!important;
+}
+
+.menu-nav
+{
+
+}
+
+.menu-nav a
+{
+    color: #121212;
+    text-decoration: none;
+}
+
+#selected
+{
+    color: #FF0000;
+    text-decoration: underline;
 }
