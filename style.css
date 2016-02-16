@@ -1,0 +1,39 @@
+.topLine
+{
+    height: 40px;
+    width: 100%;
+    background-color: #313131;
+    font: bold 12px/30px "Arial","Helvetica",sans-serif;
+    margin-top: -8px;
+}
+
+.topLine-nav
+{
+    display: inline;
+}
+
+.topLine-nav a
+{
+    vertical-align: baseline;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.topLine-user
+{
+    display: inline;
+    float: right;
+}
+
+.topLine-user a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.clear
+{
+    clear: both;
+}
