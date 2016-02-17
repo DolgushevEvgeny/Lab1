@@ -17,7 +17,7 @@
     vertical-align: baseline;
     color: #FFFFFF;
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .topLine-user
@@ -48,6 +48,7 @@
 
 .menu-logo
 {
+    display: inline;
     margin: 0 15px 0 0;
     padding: 11px 10px 7px;
 }
@@ -60,7 +61,7 @@
 
 .menu-nav
 {
-
+    display: inline;
 }
 
 .menu-nav a
@@ -74,3 +75,10 @@
     color: #FF0000;
     text-decoration: underline;
 }
+
+.menu-search
+{
+    float: right;
+    display: inline;
+}
+
