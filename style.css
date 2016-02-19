@@ -1,5 +1,7 @@
-body
+body, html
 {
+    margin: 0px;
+    padding: 0;
     font: bold 12px/30px "Arial","Helvetica",sans-serif;
 }
 
@@ -9,12 +11,12 @@ body
     width: 100%;
     background-color: #313131;
     font: bold 12px/30px "Arial","Helvetica",sans-serif;
-    margin-top: -8px;
 }
 
 .topLine-nav
 {
     display: inline;
+    margin-left: 27%;
 }
 
 .topLine-nav a
@@ -29,6 +31,7 @@ body
 {
     display: inline;
     float: right;
+    margin-right: 6%;
 }
 
 .topLine-user a
@@ -83,19 +86,26 @@ body
 
 .menu-search
 {
-    float: right;
+    margin-left: 100px;
     display: inline;
 }
 
 .mainNews
 {
-
+    display: inline-block;
+    position: absolute;
+    margin: 0 5% 0 5%;
+    max-height: 400px;
 }
 
 .mainNews-1
 {
     display: inline-block;
+    float: left;
+    width: 50%;
+    height: 100%;
     position: relative;
+    max-height: 400px;
 }
 
 .image1-title
@@ -104,6 +114,7 @@ body
     color: #FFFFFF;
     padding: 10px;
     width: 150px;
+    font-size: 13px;
 }
 
 .mainNews-1 .mainNews-1-image-text
@@ -121,60 +132,102 @@ body
     font-size: 28px;
     text-align: left;
     padding: 0 15px 15px;
+    font-weight: 700;
 }
 
 .mainNews-2
 {
-    display: inline-block;
-    position: relative;
+    display: block;
+    float: right;
+    width: 50%;
+    max-height: 400px;
 }
 
-.mainNews-2 .mainNews-2-image1-text
+.mainNews-2 .mainNews-2-1
 {
     display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+}
+
+.mainNews-2 .mainNews-2-2
+{
+    margin: -11px 0 0 0 ;
+    padding: 0;
+    position: relative;
+    max-height: 200px;
+}
+
+
+#textOnImage{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+#image1, #image2
+{
+    display: inline-block;
+    width: 50%;
+    max-height: 200px;
+    margin: 0;
+    padding:0;
+
+}
+
+#image3, #image4
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+}
+
+#image1{
+    float: left;
+}
+
+#image3{
+    float: left;
+}
+
+
+
+
+.mainNews-2-image1-text
+{
+    display: block;
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: inherit;
 }
 
-.mainNews-2 .mainNews-2-image1-text h2
+.mainNews-2-image1-text h2
 {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
     padding: 0 15px 15px;
 }
 
-.mainNews-2 .mainNews-2-image2-text
+.mainNews-2-image2-text
 {
     display: block;
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: inherit;
 }
 
-.mainNews-3
+.mainNews-2-image2-text h2
 {
-    display: inline-block;
-    position: relative;
-}
-
-.mainNews-3 .mainNews-3-image1-text
-{
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-.mainNews-3 .mainNews-3-image2-text
-{
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+    padding: 0 15px 15px;
 }
