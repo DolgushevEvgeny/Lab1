@@ -1,105 +1,89 @@
-body, html
-{
-    margin: 0px;
+body, html {
+    margin: 0;
     padding: 0;
     font: bold 12px/30px "Arial","Helvetica",sans-serif;
 }
 
-.topLine
-{
+.topLine {
     height: 32px;
     width: 100%;
     background-color: #313131;
     font: bold 12px/30px "Arial","Helvetica",sans-serif;
 }
 
-.topLine-nav
-{
+.topLine-nav {
     display: inline;
     margin-left: 27%;
 }
 
-.topLine-nav a
-{
+.topLine-nav a {
     vertical-align: baseline;
     color: #FFFFFF;
     text-decoration: none;
     padding-right: 10px;
 }
 
-.topLine-user
-{
+.topLine-user {
     display: inline;
     float: right;
     margin-right: 6%;
 }
 
-.topLine-user a
-{
+.topLine-user a {
     color: #FFFFFF;
     text-decoration: none;
     padding-right: 20px;
 }
 
-.clear
-{
+.clear {
     clear: both;
 }
 
-.menu
-{
+.menu {
     width: 1200px;
     height: 50px;
     padding: 5px 0;
     font: bold 12px/30px "Arial","Helvetica",sans-serif;
 }
 
-.menu-logo
-{
+.menu-logo {
     display: inline;
     margin: 0 15px 0 0;
     padding: 11px 10px 7px;
 }
 
-.menu-logo a
-{
+.menu-logo a {
     color: #121212;
     text-decoration: none!important;
 }
 
-.menu-nav
-{
+.menu-nav {
     display: inline;
 }
 
-.menu-nav a
-{
+.menu-nav a {
     color: #121212;
     text-decoration: none;
 }
 
-#selected
-{
+#selected {
     color: #FF0000;
     text-decoration: underline;
 }
 
-.menu-search
-{
+.menu-search {
     margin-left: 100px;
     display: inline;
 }
 
-.mainNews
-{
+.mainNews {
     display: inline-block;
     position: absolute;
     margin: 0 5% 0 5%;
     max-height: 400px;
 }
 
-.mainNews-1
-{
+.mainNews-1 {
     display: inline-block;
     float: left;
     width: 50%;
@@ -108,8 +92,7 @@ body, html
     max-height: 400px;
 }
 
-.image1-title
-{
+.image1-title {
     background-color: #567fec;
     color: #FFFFFF;
     padding: 10px;
@@ -117,8 +100,7 @@ body, html
     font-size: 13px;
 }
 
-.mainNews-1 .mainNews-1-image-text
-{
+.mainNews-1-image-text {
     display: block;
     position: absolute;
     left: 0;
@@ -126,8 +108,7 @@ body, html
     width: 100%;
 }
 
-.mainNews-1 .mainNews-1-image-text h2
-{
+.mainNews-1-image-text h2 {
     color: #FFFFFF;
     font-size: 28px;
     text-align: left;
@@ -135,16 +116,14 @@ body, html
     font-weight: 700;
 }
 
-.mainNews-2
-{
+.mainNews-2 {
     display: block;
     float: right;
     width: 50%;
     max-height: 400px;
 }
 
-.mainNews-2 .mainNews-2-1
-{
+.mainNews-2 .mainNews-2-1 {
     display: inline-block;
     position: relative;
     padding: 0;
@@ -152,35 +131,22 @@ body, html
     max-height: 200px;
 }
 
-.mainNews-2 .mainNews-2-2
-{
+.mainNews-2 .mainNews-2-2 {
     margin: -11px 0 0 0 ;
     padding: 0;
     position: relative;
     max-height: 200px;
 }
 
-
-#textOnImage{
-    position: relative;
-    z-index: 2;
-}
-
-
-
-
-#image1, #image2
-{
+#image1, #image2 {
     display: inline-block;
     width: 50%;
     max-height: 200px;
     margin: 0;
     padding:0;
-
 }
 
-#image3, #image4
-{
+#image3, #image4 {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -195,39 +161,66 @@ body, html
     float: left;
 }
 
-
-
-
-.mainNews-2-image1-text
-{
+.mainNews-2-image1-text {
     display: block;
     position: absolute;
     left: 0;
     bottom: 0;
-    width: inherit;
+    width: 50%;
 }
 
-.mainNews-2-image1-text h2
-{
+.mainNews-2-image1-text h2 {
     color: #FFFFFF;
     font-size: 14px;
     text-align: left;
     padding: 0 15px 15px;
+    font-weight: 700;
 }
 
-.mainNews-2-image2-text
-{
+.mainNews-2-image2-text {
+    display: block;
+    position: absolute;
+    left: 300px;
+    bottom: 0;
+    width: 50%;
+}
+
+.mainNews-2-image2-text h2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+    padding: 0 15px 15px;
+    font-weight: 700;
+}
+
+.mainNews-3-image1-text {
     display: block;
     position: absolute;
     left: 0;
     bottom: 0;
-    width: inherit;
+    width: 50%;
 }
 
-.mainNews-2-image2-text h2
-{
+.mainNews-3-image1-text h2 {
     color: #FFFFFF;
     font-size: 14px;
     text-align: left;
     padding: 0 15px 15px;
+    font-weight: 700;
+}
+
+.mainNews-3-image2-text {
+    display: block;
+    position: absolute;
+    left: 300px;
+    bottom: 0;
+    width: 50%;
+}
+
+.mainNews-3-image2-text h2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+    padding: 0 15px 15px;
+    font-weight: 700;
 }
