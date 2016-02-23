@@ -28,7 +28,7 @@ body, html {
     border: 0;
     text-align: center;
     vertical-align: top;
-
+    font-weight: inherit;
 }
 
 .topLine-user {
@@ -86,7 +86,6 @@ body, html {
 
 .mainNews {
     display: inline-block;
-    position: absolute;
     margin: 0 5% 40px 5%;
     max-height: 400px;
 }
@@ -235,16 +234,17 @@ body, html {
 
 .otherNews {
     display: inline-block;
-    margin: 0 5% 40px 5%;
+    margin: -10px 5% 0 5%;
     width: 1200px;
     position: relative;
-    height: 900px;
+    height: 400px;
+    font-weight: inherit;
 }
 
 .column1 {
     vertical-align: top;
     width: 25%;
-    height: inherit;
+    height: auto;
     display: inline-block;
     background-color: #0055CC;
 }
@@ -252,7 +252,7 @@ body, html {
 .column2 {
     vertical-align: top;
     width: 25%;
-    height: inherit;
+    height: auto;
     display: inline-block;
     background-color: #118F00;
     margin-left: -3px;
@@ -261,7 +261,7 @@ body, html {
 
 .column3 {
     width: 25%;
-    height: inherit;
+    height: auto;
     display: inline-block;
     background-color: #b34b40;
 }
@@ -270,16 +270,25 @@ body, html {
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    padding: 0 15px;
     border-bottom: 1px solid #e3e3e3;
+    padding: 0 15px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .column1-item ul {
-    margin: 0 0 12px;
     padding: 4px 0 20px;
+    margin: 0 0 12px;
+    text-align: left;
+    line-height: 1;
+}
+
+.column1-item li {
+    display: inline-block;
 }
 
 .column1-item a {
+    display: inline;
     text-decoration: none;
 }
 
@@ -297,8 +306,43 @@ body, html {
     width: 100%;
     padding: 0 15px;
     border-bottom: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .column2-item a {
+    text-decoration: none;
+}
+
+.column2-item-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
+    box-sizing: border-box;
+}
+
+.column3-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 121px;
+}
+
+.column3-item-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
+    box-sizing: border-box;
+}
+
+.column3-item-image a {
     text-decoration: none;
 }
