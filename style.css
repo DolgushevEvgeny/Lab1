@@ -9,18 +9,26 @@ body, html {
     width: 100%;
     background-color: #313131;
     font: bold 12px/30px "Arial","Helvetica",sans-serif;
+    font-weight: 700;
 }
 
 .topLine-nav {
-    display: inline;
-    margin-left: 27%;
+    display: inline-block;
+    margin-left: 25%;
+    height: 32px;
 }
 
 .topLine-nav a {
     vertical-align: baseline;
     color: #FFFFFF;
     text-decoration: none;
-    padding-right: 10px;
+    margin-left: 15px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    vertical-align: top;
+
 }
 
 .topLine-user {
@@ -79,7 +87,7 @@ body, html {
 .mainNews {
     display: inline-block;
     position: absolute;
-    margin: 0 5% 0 5%;
+    margin: 0 5% 40px 5%;
     max-height: 400px;
 }
 
@@ -223,4 +231,74 @@ body, html {
     text-align: left;
     padding: 0 15px 15px;
     font-weight: 700;
+}
+
+.otherNews {
+    display: inline-block;
+    margin: 0 5% 40px 5%;
+    width: 1200px;
+    position: relative;
+    height: 900px;
+}
+
+.column1 {
+    vertical-align: top;
+    width: 25%;
+    height: inherit;
+    display: inline-block;
+    background-color: #0055CC;
+}
+
+.column2 {
+    vertical-align: top;
+    width: 25%;
+    height: inherit;
+    display: inline-block;
+    background-color: #118F00;
+    margin-left: -3px;
+    margin-right: -3px;
+}
+
+.column3 {
+    width: 25%;
+    height: inherit;
+    display: inline-block;
+    background-color: #b34b40;
+}
+
+.column1-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.column1-item ul {
+    margin: 0 0 12px;
+    padding: 4px 0 20px;
+}
+
+.column1-item a {
+    text-decoration: none;
+}
+
+.item-subtext {
+    color: #333;
+}
+
+.item-time {
+    color: #ababab;
+}
+
+.column2-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.column2-item a {
+    text-decoration: none;
 }
