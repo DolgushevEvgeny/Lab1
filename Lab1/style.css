@@ -43,14 +43,11 @@ body, html {
     padding-right: 20px;
 }
 
-.clear {
-    clear: both;
-}
-
 .menu {
     width: 1200px;
     height: 50px;
     padding: 5px 0;
+    margin: 0 5% 0 5%;
     font: bold 12px/30px "Arial","Helvetica",sans-serif;
 }
 
@@ -62,6 +59,7 @@ body, html {
 
 .menu-logo a {
     color: #121212;
+    font: bold 26px "Arial","Helvetica",sans-serif;
     text-decoration: none!important;
 }
 
@@ -71,6 +69,8 @@ body, html {
 
 .menu-nav a {
     color: #121212;
+    padding-right: 15px;
+    font: bold 13px "Arial","Helvetica",sans-serif;
     text-decoration: none;
 }
 
@@ -85,9 +85,11 @@ body, html {
 }
 
 .mainNews {
-    display: inline-block;
-    margin: 0 5% 40px 5%;
-    max-height: 400px;
+    /*display: inline-block;*/
+    /*margin: 0 5% 40px 5%;*/
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 1200px;
 }
 
 .mainNews-1 {
@@ -233,12 +235,13 @@ body, html {
 }
 
 .otherNews {
-    display: inline-block;
-    margin: -10px 5% 0 5%;
+    display: block;
+    margin: 0 auto;
     width: 1200px;
     position: relative;
     height: 400px;
-    font-weight: inherit;
+    font: normal 10px "Arial","Helvetica",sans-serif;
+    padding: 2px 0 0;
 }
 
 .column1 {
@@ -246,7 +249,7 @@ body, html {
     width: 25%;
     height: auto;
     display: inline-block;
-    background-color: #0055CC;
+    /*background-color: #0055CC;*/
 }
 
 .column2 {
@@ -254,26 +257,44 @@ body, html {
     width: 25%;
     height: auto;
     display: inline-block;
-    background-color: #118F00;
     margin-left: -3px;
     margin-right: -3px;
+    /*background-color: #118F00;*/
 }
 
 .column3 {
     width: 25%;
     height: auto;
     display: inline-block;
-    background-color: #b34b40;
+    /*background-color: #b34b40;*/
+}
+
+.currency {
+    padding: 4px 0 20px;
+    margin-bottom: 12px;
+}
+
+.column1-item-inside-currency {
+    margin: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.currency-item {
+    font: normal 12px "Arial","Helvetica",sans-serif;
+    width: 50%;
 }
 
 .column1-item {
-    display: inline-block;
+    display: inline;
     vertical-align: top;
     width: 100%;
-    border-bottom: 1px solid #e3e3e3;
-    padding: 0 15px;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+.column1-item-inside{
+    margin: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 .column1-item ul {
@@ -304,10 +325,13 @@ body, html {
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    padding: 0 15px;
-    border-bottom: 1px solid #e3e3e3;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+.column2-item-inside{
+    margin: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 .column2-item a {
@@ -319,7 +343,7 @@ body, html {
     vertical-align: top;
     width: 100%;
     padding: 0 15px;
-    border-bottom: 1px solid #e3e3e3;
+    margin-top: 10px;
     box-sizing: border-box;
 }
 
@@ -328,10 +352,14 @@ body, html {
     vertical-align: top;
     width: 100%;
     padding: 0 15px;
-    border-bottom: 1px solid #e3e3e3;
     box-sizing: border-box;
     overflow: hidden;
     height: 121px;
+}
+
+.column3-item-inside{
+    margin: 0 15px;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 .column3-item-image {
