@@ -74,8 +74,12 @@ body, html {
     text-decoration: none;
 }
 
+.menu-nav a:hover{
+	color:#ff4f57;
+}
+
 #selected {
-    color: #FF0000;
+    color: #ff4f57;
     text-decoration: underline;
 }
 
@@ -93,12 +97,16 @@ body, html {
 }
 
 .mainNews-1 {
-    display: inline-block;
+    display: inline;
     float: left;
     width: 50%;
     height: 100%;
     position: relative;
     max-height: 400px;
+}
+
+img:hover{
+	opacity:0.7;
 }
 
 .image1-title {
@@ -132,6 +140,10 @@ body, html {
     max-height: 400px;
 }
 
+h2.hov:hover{
+	text-decoration:underline;
+}
+
 .mainNews-2 .mainNews-2-1 {
     display: inline-block;
     position: relative;
@@ -148,7 +160,7 @@ body, html {
 }
 
 #image1, #image2 {
-    display: inline-block;
+    display: inline;
     width: 50%;
     max-height: 200px;
     margin: 0;
@@ -156,7 +168,7 @@ body, html {
 }
 
 #image3, #image4 {
-    display: inline-block;
+    display: inline;
     margin: 0;
     padding: 0;
     max-height: 200px;
@@ -244,6 +256,10 @@ body, html {
     padding: 2px 0 0;
 }
 
+.hov{
+    font-weight: inherit;
+}
+
 .column1 {
     vertical-align: top;
     width: 25%;
@@ -284,6 +300,10 @@ body, html {
     width: 50%;
 }
 
+.currency__down{
+    color: #00FF00;
+}
+
 .column1-item {
     display: inline;
     vertical-align: top;
@@ -305,7 +325,7 @@ body, html {
 }
 
 .column1-item li {
-    display: inline-block;
+    display: inline;
 }
 
 .column1-item a {
