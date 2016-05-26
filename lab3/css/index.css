@@ -1,0 +1,49 @@
+body {
+     width:600px;
+}
+
+#messages {
+    width: 100%;
+    height:350px;
+    overflow:auto;
+    border:1px solid silver;
+}
+
+#mainForm {
+    margin: 10px 0 10px 0;
+}
+
+#loginName, #passwordText, #loginBtn, #sendingMessage, #sendBtn {
+    padding: 5px;
+}
+
+#loginName, #passwordText {
+    width: 33%;
+}
+
+#loginBtn {
+    width: 10%;
+    margin: 5px;
+}
+
+#chat {
+    width: 70%;
+    float: left;
+}
+
+#users {
+    width: 25%;
+    height:350px;
+    border:1px solid silver;
+    float: right;
+}
+
+#user_name {
+	padding: 0 0 0 5px;
+	margin: 0;
+}
+
+.user_info {
+	padding: 10px 0 10px 10px;
+	margin: 0;
+}

@@ -1,0 +1,38 @@
+﻿<html>
+	<title>My Chat</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<meta content="charset=utf8" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	</head>
+ 
+	<body>
+		<div class="content">
+			<form id="mainForm" method="post" action="">
+					Login: <input type="text" name="login" id="loginName">
+					Password: <input type="password" name="password" id="passwordText">
+					<input type="submit" value="Вход" id="loginBtn">
+			</form>
+			<table id="chat">
+				<tr>
+					<td>
+						<div id="messages"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<form id="sendForm" method="post" action="">
+							<input type="text" name="mess_to_send" id="sendingMessage">
+							<input type="submit" value="Отправить" id="sendBtn">
+						</form>
+					</td>
+				</tr>
+			</table>
+            <div id="users">
+				<p class="user_info">Пользователи чата:</p>
+				<div id="user_name"></div>
+            </div>
+		</div> 
+		<script src="js/script.js"></script>
+	</body>
+</html>
